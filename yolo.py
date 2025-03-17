@@ -8,9 +8,9 @@ from ultralytics import YOLO
 model = YOLO("model.pt")  # Replace with your trained model file
 
 # Email Credentials
-EMAIL_SENDER = "pavinthran377@gmail.com"  # Your Gmail address
-EMAIL_PASSWORD = "afxbyomlkifleecs"   # Your 16-character App Password
-EMAIL_RECEIVER = "arunpradaap262005@gmail.com"  # Receiver's Email Address
+EMAIL_SENDER = "sender mail"  # Your Gmail address
+EMAIL_PASSWORD = "api password"   # Your 16-character App Password
+EMAIL_RECEIVER = "receiver mail"  # Receiver's Email Address
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465  # SSL Port
 
